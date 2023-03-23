@@ -8,7 +8,7 @@ import com.techhub.binding.Customer;
 @RestController
 public class CustomerRestController {
 	
-	@GetMapping("/")
+	@GetMapping("/customer")
 	public Customer getCustomer() {
 		
 		Customer c=new Customer();
