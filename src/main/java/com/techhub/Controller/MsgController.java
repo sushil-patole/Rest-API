@@ -20,7 +20,7 @@ public class MsgController {
 		return new ResponseEntity<String>(msg, HttpStatus.OK);
 		
 	}
-	    @GetMapping("/")
+	    @GetMapping("/greet")
 	   public String getGreetMsg() {
 	    	
 	    	String msg="Good Afternoon";
